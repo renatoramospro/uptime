@@ -51,5 +51,3 @@ Upptime is used by [**1,000+**](https://github.com/topics/upptime) people and te
   - Um PWA simples, bonito e acessível é gerado
   - Construído com Svelte e Sapper
   - Busca dados deste repositório usando a API GitHub
-
-_Upptime não é afiliado ou endossado pelo GitHub._
