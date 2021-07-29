@@ -1,6 +1,5 @@
 # uptime
 
-# [![Upptime](https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/logo.svg)](https://upptime.js.org)
 
 <!--start: description-->
 
@@ -35,26 +34,22 @@ Upptime is used by [**1,000+**](https://github.com/topics/upptime) people and te
 
 <!--start: docs-->
 
-_This README is also available in [🇧🇷 Brazilian Portuguese](./README.pt-br.md)_
+## ⭐ Como funciona
 
-## ⭐ How it works
+- Ações GitHub são usadas como um monitor de tempo de atividade
+  - A cada 5 minutos, um fluxo de trabalho visita seu site para verificar se ele está funcionando
+  - O tempo de resposta é registrado a cada 6 horas e comprometido com o git
+  - Gráficos de tempo de resposta são gerados todos os dias
+- Problemas do GitHub são usados para relatórios de incidentes
+  - Um problema é aberto se um endpoint estiver inativo
+  - Pessoas de sua equipe são designadas para o problema
+  - Relatórios de incidentes são postados como comentários de problemas
+  - Os problemas estão bloqueados para que não membros não possam comentar sobre eles
+  - Os problemas são encerrados automaticamente quando seu site volta a funcionar
+  - Notificações do Slack são enviadas sobre atualizações
+- As páginas do GitHub são usadas para o site de status
+  - Um PWA simples, bonito e acessível é gerado
+  - Construído com Svelte e Sapper
+  - Busca dados deste repositório usando a API GitHub
 
-- GitHub Actions is used as an uptime monitor
-  - Every 5 minutes, a workflow visits your website to make sure it's up
-  - Response time is recorded every 6 hours and committed to git
-  - Graphs of response time are generated every day
-- GitHub Issues are used for incident reports
-  - An issue is opened if an endpoint is down
-  - People from your team are assigned to the issue
-  - Incidents reports are posted as issue comments
-  - Issues are locked so non-members cannot comment on them
-  - Issues are closed automatically when your site comes back up
-  - Slack notifications are sent on updates
-- GitHub Pages are used for the status website
-  - A simple, beautiful, and accessible PWA is generated
-  - Built with Svelte and Sapper
-  - Fetches data from this repository using the GitHub API
-
-_Upptime is not affiliated to or endorsed by GitHub._
-
-[![Screenshot of status website](https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/screenshot-status.png)](https://upptime.js.org)
+_Upptime não é afiliado ou endossado pelo GitHub._
